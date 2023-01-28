@@ -1,0 +1,134 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+
+  padding: 3rem;
+}
+
+.summary__title,
+.summary__details,
+.summary__shop {
+  width: 100%;
+}
+
+.summary__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 0 2rem;
+}
+
+.summary__details {
+  background-color: rgb(200, 238, 245);
+  padding: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.summary__details--info {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2rem;
+}
+
+.summary__details--info__note,
+.summary__details--info__receiver {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+}
+
+.summary__details--info__receiver--list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+}
+
+.summary__details--price {
+  background-color: beige;
+  border-radius: 1rem;
+  padding: 1.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary__details--price__info {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.summary__details--price__info--image {
+  width: 10rem;
+  height: 10rem;
+}
+
+.summary__details--price__info--image img {
+  border-radius: 50%;
+
+  object-position: center top;
+}
+
+.summary__details--price__info--name {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary__details--price__info--name div {
+  display: flex;
+  gap: 1rem;
+}
+
+.summary__details--price__Quantity {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.summary__shop {
+  margin-top: 1rem;
+  padding: 1.4rem;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary__shop--shipping,
+.summary__shop--payment,
+.summary__shop__total {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.summary__shop--payment ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.summary__shop__total div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+
+input[type="submit"] {
+  background-color: rgb(55, 165, 220);
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
